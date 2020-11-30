@@ -1,0 +1,108 @@
+h1 {
+       color : blue;
+       background-color: red;
+ 
+
+}
+p{
+    color : orange;
+}
+#try1{
+    color : pink;
+    border-radius: 100px;
+    padding-top: 10px;
+    padding-left: 320px;
+    margin: 10px;
+    border: 5px solid black;
+    
+}
+#form:hover{
+    color: black;
+    font-size: large;
+    font: message-box;
+    
+}
+button:hover{
+    font-size: medium;
+    color:red;
+}
+#form:visited{
+    color :black;
+}
+div {
+    color:red;
+    }
+
+form{
+    
+    background: url('https://source.unsplash.com/1200x900/?web technology') center no-repeat;
+    height: 100vh;
+    background-size: cover;
+    
+    
+    
+ }
+input{
+     color:green;
+     background-color: darkgrey;
+ }
+textarea{
+    color:black;
+    background-color: darkgrey;
+    font-size:20px;
+}
+link{
+    color:black;
+    background-color: rgba(23, 53, 151, 0.795);
+    
+}
+#submit_button:hover{
+    color:black;
+    background-color:crimson;
+    cursor: pointer;
+
+}
+#reset_button:hover{
+    color:black;
+    background-color:crimson;
+    cursor: pointer;
+    
+}
+/* ul{
+    margin:0;
+    padding:0;
+    height:50px;
+    line-height: 50px;
+    list-style:none;
+    /* background-color:#EA2027; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+li{
+    float:left;
+    /* border-right:1px solid #EA2027; 
+    
+}
+a{
+    display: block;
+    padding:0 28px;
+    color:darkred;
+    text-decoration: none;
+}
+a:hover{
+    background-color:white;
+}  
+#codes{
+    color:#2c3e50;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    padding-left: 800px;
+}
+#codes li{
+    background-color:2px solid black;
+}
+#mainbody{
+    background:url("newcodesgo.jpg") center no-repeat;
+    height:100vh;
+    background-size: cover;
+} */
