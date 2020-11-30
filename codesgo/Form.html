@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+
+<body>
+
+    <h1> HTML Form</h1>
+    <form action="backend.py">
+        <div>
+            Name:<input type="text" name="myname"> </input>
+        </div>
+        <br>
+        <div>
+            Role: <input type="text" name="myrole"></input>
+        </div>
+        <br>
+        <div>
+            Email :<input type="text" name="myemail"></input>
+        </div>
+        <br>
+        <div>
+            Gender : Male <input type="radio" name="mygender"></input> FeMale <input type="radio"
+                name="mygender"></input>Others <input type="radio" name="mygender"></input>
+        </div>
+        <br>
+        <div>
+            Are you eligible :<input type="checkbox" name="myeligibility"></input>
+        </div>
+        <br>
+        <div>
+            <textarea name="myself" rows=10 cols=50 placeholder ="Write about Yourself"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now" id ="submit_button"></input>
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="Reset Now" id = "reset_button"></input>
+        </div>
+    </form>
+
+</body>
+
+</html>
