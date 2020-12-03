@@ -3,9 +3,9 @@
     padding:0;
 }
 
-div label{
+.container-1 label{
     color:black;
-    display:block;
+    display:inline-block;
     font-family: 'Baloo Bhaina 2', cursive;
     font-size:60px;
     margin-top:25px;
@@ -13,13 +13,13 @@ div label{
     font-size:114px;
     text-shadow: 4px 5px green;
 }
-div{
+.container-1{
     background-color:#333;
     border:8px solid black;
     border-radius:12px;
     display:inline-block;
     margin-top:100px;
-    margin-left:300px;
+    margin-left:69px;
     height:455px;
     width: 679px;
     
@@ -41,6 +41,7 @@ body{
     height:100vh;
     background-size:cover;
     width:100wh;
+    display:inline-block;
 }
 #login_button{
     font-family: 'Baloo Bhaina 2', cursive;
@@ -61,4 +62,26 @@ body{
 }
 #login_button:hover{
     background-color:blue;
+}
+.container + div {
+    display:flex;
+    flex-direction:column;
+    
+}
+.container-2{
+    border:5px solid crimson;
+    width:572px;
+    height:419px;
+   display:inline-block;
+   background-color:#333;
+}
+.container{
+    height:1000px;
+    width:1350px;
+}
+.container-2 label{
+    color:black;
+    font-size:100px;
+    text-shadow: 4px 5px green;
+    
 }
